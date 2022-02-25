@@ -50,7 +50,7 @@ function App() {
 }
 ```
 
-You will notice we only modified line 16 of the code. We added an attribute to the `Testimonials` element called `userTestimonial`. By adding this attribute to our `Testimonials` element, it will be passed down as props from `App.js`.
+You will notice we only modified one line of the code. We added an attribute to the `Testimonials` element called `userTestimonial`. By adding this attribute to our `Testimonials` element, it will be passed down as props from `App.js`.
 
 From the [React documentation](https://reactjs.org/docs/components-and-props.html): "When React sees an element representing a user-defined component, it passes JSX attributes to this component as a single object. We call this object "props"."
 
