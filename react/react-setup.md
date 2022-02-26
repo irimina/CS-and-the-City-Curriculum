@@ -49,6 +49,8 @@ You should see a page that looks like this. Pretty cool, right? Also - notice ho
 
 #### Step 5
 
+Test the file locally by doing the folloing below:
+
 Open directory that contains your React project in your code editor. Find the App.js file in the "src" directory. Delete the code inside of the div with the class name "App."
 
 ![Delete Code](./img/delete-code.png)
@@ -60,14 +62,5 @@ Try adding some HTML to get "Hello World" to appear on the web page instead!
 <a id="mini-challenges"></a>
 #### Mini-Challenges
 
-* Add an `<h1>` tag with the text "About YOUR_NAME" within the `div` with the class `"App"`. Obviously, replace YOUR_NAME with your actual name.
-* Create a short About Me page. This page should include your favorite quote, your nick name, and a list of activities you enjoy.
-* Extension - style the page using the `index.css` file
+* Add an `<h1>` tag with the text "Local Development Completed" within the `div` with the class `"App"`
 
-## Close
-
-Pose the questions below for a quick discussion. As always, collect student feedback at the end of the lesson.
-
-##### Question
-
-* Do you think that every time a user signs up for Facebook, an engineer at Facebook must program a new user page? If not, what do you think happens?
