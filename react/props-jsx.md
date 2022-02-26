@@ -154,12 +154,11 @@ Now we need to modify `ReviewCard.js` to utilize the props that are being passed
 
 #### Mini-Challenges  - answer in the document 
 
-* How could we pass the review data to each card using only one attribute?
 * Complete the website by creating a review card for each of the six reviews
 * Extra challenge: Refactor your code so that you **iterate** through the review data and create each card programmatically (rather than hard coding each one). Try researching how to do this.
 
 ## Close
-* Describe the process of creating a review card for each review.
+* How did you pass the review data to each card using only one attribute? Describe the process of creating a review card for each review.
 * What is the key benefit to building components with props?
 * What did you learn/practice/understand better today?
 
