@@ -6,27 +6,10 @@
 * Students will be able to export and import variables between files.
 * Students will be able to create components that operate as templates.
 
-## Sequence
-
-1. [Launch](#launch)
-2. [Passing Our First Property](#singleprop)
-3. [Passing Multiple Properties](#multipleprop)
-4. [Close](#close)
-
-## Launch
-
-Have students navigate to a website of their choice that is made with React (find and share an up-to-date list with them). Instruct students to look over the page and look for any component of the website that seems to be repeated. The content doesn't have to be the same, but these components should have similar features. For example, the AirBnB website has cards that have a photo, title, price, and review; this is a repeated component. What repeated component(s) can you find?
-
-![AirBnB](./img/airbnb.png)
-
-#### Questions for Students
-
-* What component did you find that is repeated. What is similar about all of the instances of that component?
-* Why are repeatable components a common feature of React websites? How might this make programming websites easier for a developer?
 
 ## Components and props
 
-As we have discussed, React allows developers to build websites by piecing together various components. This makes the development processing easier, as the website is now built with modular pieces that can be modified, added, and removed. But what if we want to reuse and customize a component without copying-and-pasting our code into a whole new component? That's where props come in, and they allow us to use our components as templates that can be customized with specified PROPerties (see what I did there?).
+As we have discussed, React allows developers to build websites by piecing together various components. This makes the development processing easier, as the website is now built with modular pieces that can be modified, added, and removed. But what if we want to reuse and customize a component without copying-and-pasting our code into a whole new component? That's where props come in, and they allow us to use our components as templates that can be customized with specified PROPerties.
 
 <a id="singleprop"></a>
 ### Passing Our First Property
@@ -77,13 +60,10 @@ We need to have our functional component take in a parameter called `props`. By 
 
 We are then going to render our prop onto the screen. To embed our prop into the HTML we have written, we just have to add `{ props.testimonial }` to the paragraph element on the page.
 
-> It should be noted that this is also our first use of JSX syntax. React uses a syntax extension of JavaScript called JSX. JSX allows us to embed JavaScript into our HTML by wrapping the JavaScript in curly braces. To use the JavaScript variable `testimonial` in our HTML, we just need to add curly braced around it.
+> React uses a syntax extension of JavaScript called JSX. JSX allows us to embed JavaScript into our HTML by wrapping the JavaScript in curly braces. To use the JavaScript variable `testimonial` in our HTML, we just need to add curly braced around it.
 
-> This might be a good time to discuss JSX briefly and how it is used in React projects. To learn more about JSX please refer to the [React documentation](https://reactjs.org/docs/introducing-jsx.html)
 
-> As the instructor, it might be good to pause before editing line 25 and `console.log(props)` in the `Testimonials` component. Students will then be able to see that there is an object that has been passed down to `Testimonials` component. They will also be able to see that the props object contains a key with the same name as the attribute we added to `Testimonials` element in `App.js`.
-
-In the example we just did, we passed a hard-coded string down as the prop "userTestimonial." We can also pass down a JavaScript variable (or even a function! But that's for another time...) as a prop. Let's try this by refactoring our code a bit. We are going to create a variable called `testimonial` and set it equal to our previous review. Then we can pass it down as a prop by using JSX syntax as seen below:
+In the example we just did, we passed a hard-coded string down as the prop "userTestimonial." We can also pass down a JavaScript variable (or even a function! But that's for another time.) as a prop. Let's try this by refactoring our code a bit. We are going to create a variable called `testimonial` and set it equal to our previous review. Then we can pass it down as a prop by using JSX syntax as seen below:
 
 ```javascript
 function App() {
@@ -147,8 +127,6 @@ function App() {
 
 The first step is to create a `<ReviewCard />` element and add the attributes as seen above.
 
-> To help students understand how this nested data is being extracted from the array, it would be a good idea to `console.log(review)` and look at the review object. Then, walk students through how to get the first name from the review in the array, the first headline, etc.
-
 ```javascript
 function ReviewCard(props) {
 	return(
@@ -174,20 +152,14 @@ function ReviewCard(props) {
 
 Now we need to modify `ReviewCard.js` to utilize the props that are being passed down to it.
 
-#### Question for Students
+#### Mini-Challenges  - answer in the document 
 
 * How could we pass the review data to each card using only one attribute?
-
-#### Mini-Challenges
-
 * Complete the website by creating a review card for each of the six reviews
-* Refactor your code so that you **iterate** through the review data and create each card programmatically (rather than hard coding each one). Try researching how to do this!
+* Extra challenge: Refactor your code so that you **iterate** through the review data and create each card programmatically (rather than hard coding each one). Try researching how to do this.
 
 ## Close
-
-Remember to gather student feedback on this lesson. In addition to the standard close, consider priming students for feedback with the following questions.
-
-#### Questions for Students
-
+* Describe the process of creating a review card for each review.
 * What is the key benefit to building components with props?
-* Look at the NYT.com website. Find all the components that are most likely built with props.
+* What did you learn/practice/understand better today?
+
