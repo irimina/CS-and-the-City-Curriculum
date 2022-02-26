@@ -22,11 +22,11 @@ You should have Node 5.2 or higher installed. If it tells you Node is not instal
 Once Node is installed, run each of the following lines of code in your terminal:
 
 ```HTML
-npx create-react-app first-react-app
-cd first-react-app
+npx create-react-app local-react-app
+cd local-react-app
 ```
 
-The first command tells node where to find the files on the internet to create a new React project and install those files on your computer. You will see we also typed in "first-react-app". This will be the name of the project we create as well as the directory where the files are installed. You can name this project anything as long as there are no spaces or special characters. We could have named it "cat-lovers-website" or "best_dressed_robots".
+The first command tells node where to find the files on the internet to create a new React project and install those files on your computer. "local-react-app". is the name of the project we create as well as the directory where the files are installed. You can name this project anything as long as there are no spaces or special characters. We could have named it "cat-lovers-website" or "best_dressed_robots".
 
 #### Step 3
 
@@ -60,7 +60,7 @@ Try adding some HTML to get "Hello World" to appear on the web page instead!
 ![Hello World](./img/hello-world.png)
 
 <a id="mini-challenges"></a>
-#### Mini-Challenges
+#### Step 6
 
 * Add an `<h1>` tag with the text "Local Development Completed" within the `div` with the class `"App"`
 
