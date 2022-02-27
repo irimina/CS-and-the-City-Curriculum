@@ -9,7 +9,7 @@
 
 #### Step 1
 
-First you need to check if you have Node installed on your computer. You can check by typing the following into your terminal.
+First you need to check if you have Node installed on your computer. You can check by typing the following into your terminal/command line.
 
 ```HTML
 npm -v
