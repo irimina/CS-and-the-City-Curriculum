@@ -152,7 +152,7 @@ function ReviewCard(props) {
 
 Now we need to modify `ReviewCard.js` to utilize the props that are being passed down to it.
 
-#### Mini-Challenges  - answer in the document 
+#### Mini-Challenges 
 
 * Complete the website by creating a review card for each of the six reviews
 * Extra challenge: Refactor your code so that you **iterate** through the review data and create each card programmatically (rather than hard coding each one). Try researching how to do this.
@@ -160,5 +160,6 @@ Now we need to modify `ReviewCard.js` to utilize the props that are being passed
 ## Close
 * How did you pass the review data to each card using only one attribute? Describe the process of creating a review card for each review.
 * What is the key benefit to building components with props?
+* How did you completed the mini challenges? Describe the process. 
 * What did you learn/practice/understand better today?
 
