@@ -15,7 +15,7 @@ First you need to check if you have Node installed on your computer. You can che
 npm -v
 ```
 
-You should have Node 5.2 or higher installed. If it tells you Node is not installed please go to https://nodejs.org and install the latest version.
+You should have Node 5.2 or higher installed. If it tells you Node is not installed please go to https://nodejs.org and install the version called 16.14.0 LTS
 
 #### Step 2
 
