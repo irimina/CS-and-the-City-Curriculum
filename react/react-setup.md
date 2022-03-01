@@ -19,7 +19,8 @@ You should have Node 5.2 or higher installed. If it tells you Node is not instal
 
 #### Step 2
 
-Once Node is installed, run each of the following lines of code in your terminal:
+Once Node is installed, cd into Documents, 
+then run each of the following lines of code in your terminal:
 
 ```HTML
 npx create-react-app local-react-app
